@@ -162,6 +162,7 @@ letter-spacing: 0.48px;
 }
 .pages-button:hover{
     background: #2196F3;
+    color: #FFF;
 }
 /* section goods */
 .goods-name{
