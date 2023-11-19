@@ -18,11 +18,17 @@ font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
 }
+.first-page:hover{
+    color: #2196F3;
+}
 .first-link{
 color: var(--text-color);
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
+}
+.first-link:hover{
+color: #2196F3;
 }
 .first-logo{
     color: var(--logo-color);
@@ -49,6 +55,7 @@ font-size: 16px;
 font-weight: 700;
 line-height: 1.8; /* 187.5% */
 letter-spacing: 0.96px;
+background: var(--logo-color);
 }
 /* section advantages */
 .advantages-name{
@@ -132,11 +139,17 @@ font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
 }
+.one-page:hover{
+    color: #2196F3;
+}
 .one-link{
     color: var(--text-color);
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
+}
+.one-link:hover{
+    color: #2196F3;
 }
 /* section pages */
 .pages-button{
@@ -146,6 +159,9 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.6; /* 162.5% */
 letter-spacing: 0.48px;
+}
+.pages-button:hover{
+    background: #2196F3;
 }
 /* section goods */
 .goods-name{
@@ -183,4 +199,22 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.7; /* 171.429% */
 letter-spacing: 0.42px;
+}
+.last{
+    background:var(--footer-color) ;
+}
+.utter{
+    background: #2F303A;
+}
+.first-span{
+    color: #212121;
+}
+.last-span{
+    color: #FFF;
+}
+.one-span{
+    color: #212121;
+}
+.utter-span{
+    color: #FFF;
 }
