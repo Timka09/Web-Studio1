@@ -15,7 +15,6 @@ body{
      width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: red solid 3px;
 }
 /* header first */
 .first-page{
@@ -23,6 +22,7 @@ body{
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
+margin-right: 93px;
 }
 .first-page:hover{
     color: #2196F3;
@@ -37,14 +37,35 @@ letter-spacing: 0.28px;
 color: #2196F3;
 }
 .first-logo{
+    margin-right: 93px;
     color: var(--logo-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
 }
+.first-contacts{
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+}
+.first-mail{
+     margin-right: 50px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
 /* section hero */
+.hero{
+    background-color: var(--firstsection-color);
+    padding: 200px 200px;
+}
 .hero-text{
+    margin-bottom: 30px;
     color: var(--article-color);
 text-align: center;
 font-size: 44px;
@@ -53,9 +74,11 @@ line-height: 1.3; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
-
 .hero-button{
-    color: var(--article-color);
+padding: 10px 32px;
+color: var(--article-color);
+cursor: pointer;
+border-radius: 4px;
 text-align: center;
 font-size: 16px;
 font-weight: 700;
@@ -224,4 +247,24 @@ letter-spacing: 0.42px;
 }
 .utter-span{
     color: #FFF;
+}
+.team-list, .work-list, .advantages-list{
+    display: flex;
+    justify-content:  space-between;
+}
+.team-photo{
+    width: 270px;
+}
+.hero-flex{
+    display: flex;
+    justify-content: center;
+}
+.first-flex{
+    display: flex;
+    align-items: center;
+}
+.first-list{
+    width: 281px;
+    display: flex;
+    justify-content: space-between;
 }
