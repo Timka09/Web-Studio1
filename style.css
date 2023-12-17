@@ -17,6 +17,9 @@ body{
     padding: 0 15px;
 }
 /* header first */
+.first{
+    padding: 32px ;
+}
 .first-page{
     color: var(--title-color);
 font-size: 14px;
@@ -87,6 +90,9 @@ letter-spacing: 0.96px;
 background: var(--logo-color);
 }
 /* section advantages */
+.advantages-item{
+    padding-top: 94px;
+}
 .advantages-name{
     color: var(--title-color);
 font-size: 14px;
@@ -102,20 +108,31 @@ line-height: 1.7; /* 171.429% */
 letter-spacing: 0.42px;
 }
 /* section work */
+.work{
+    padding-top: 118px ;
+}
 .work-name{
     color: var(--title-color);
 text-align: center;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
+padding-bottom: 50px;
 }
 /* section team */
+.team{
+    padding-top: 188px ;
+}
+.team-item{
+    padding-bottom: 94px ;
+}
 .team-name{
     color: var(--title-color);
 text-align: center;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
+padding-bottom: 50px ;
 }
 .team-nick{
     color: var(--title-color);
@@ -132,6 +149,10 @@ font-weight: 400;
 letter-spacing: 0.48px;
 }
 /* footer last */
+.last{
+    padding-top: 60px ;
+    padding-bottom: 60px;
+}
 .last-logo{
     color: var(--logo-color);
 font-family: Raleway;
@@ -140,6 +161,7 @@ font-weight: 700;
 letter-spacing: 0.78px;
 }
 .last-article{
+    padding-top: 20px ;
     color: var(--article-color);
 font-size: 14px;
 font-weight: 400;
@@ -181,7 +203,17 @@ letter-spacing: 0.28px;
     color: #2196F3;
 }
 /* section pages */
+.pages{
+    padding-top: 126px ;
+    padding-bottom: 50px ;
+}
+.pages-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px ;
+}
 .pages-button{
+    padding: 6px 22px;
     color: var(--title-color);
 text-align: center;
 font-size: 16px;
@@ -194,6 +226,14 @@ letter-spacing: 0.48px;
     color: #FFF;
 }
 /* section goods */
+.goods{
+    padding-bottom: 94px ;
+}
+.goods-list{
+    gap: 30px ;
+    display: flex;
+    flex-wrap: wrap;
+}
 .goods-name{
 color: var(--title-color);
 font-size: 18px;
@@ -207,28 +247,6 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.8; /* 187.5% */
 letter-spacing: 0.48px;
-}
-/* footer utter */
-.utter-logo{
-    color: var(--logo-color);
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-letter-spacing: 0.78px;
-}
-.utter-address{
-    color: var(--article-color);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.7; /* 171.429% */
-letter-spacing: 0.42px;
-}
-.utter-link{
-    color: var(--number-color);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.7; /* 171.429% */
-letter-spacing: 0.42px;
 }
 .last{
     background:var(--footer-color) ;
