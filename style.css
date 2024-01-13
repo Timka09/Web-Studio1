@@ -6,6 +6,7 @@
     --title-color:#212121;
     --text-color:#757575;
     --footer-color:#2F303A;
+    --team-color:#F5F4FA;
     --number-color: rgba(255, 255, 255, 0.60);
 }
 body{
@@ -18,14 +19,17 @@ body{
 }
 /* header first */
 .first{
-    padding: 32px ;
+    padding-top: 24px ;
+    padding-bottom: 25px;
+}
+.first-item{
+    margin-right: 50px;
 }
 .first-page{
     color: var(--title-color);
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
-margin-right: 93px;
 }
 .first-page:hover{
     color: #2196F3;
@@ -65,7 +69,8 @@ letter-spacing: 0.78px;
 /* section hero */
 .hero{
     background-color: var(--firstsection-color);
-    padding: 200px 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-text{
     margin-bottom: 30px;
@@ -78,6 +83,7 @@ letter-spacing: 2.64px;
 text-transform: uppercase;
 }
 .hero-button{
+border: none ;
 padding: 10px 32px;
 color: var(--article-color);
 cursor: pointer;
@@ -90,10 +96,14 @@ letter-spacing: 0.96px;
 background: var(--logo-color);
 }
 /* section advantages */
-.advantages-item{
+.advantages{
     padding-top: 94px;
 }
+.advantages-item{
+    padding-left: 30px;
+}
 .advantages-name{
+    padding-bottom: 10px;
     color: var(--title-color);
 font-size: 14px;
 font-weight: 700;
@@ -109,7 +119,7 @@ letter-spacing: 0.42px;
 }
 /* section work */
 .work{
-    padding-top: 118px ;
+    padding-top: 94px ;
 }
 .work-name{
     color: var(--title-color);
@@ -117,16 +127,23 @@ text-align: center;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 /* section team */
 .team{
-    padding-top: 188px ;
+    padding-bottom: 94px;
+    margin-top: 94px ;
+    background-color: var(--team-color);
 }
 .team-item{
-    padding-bottom: 94px ;
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--header-color);
+}
+.team-photo{
+    padding-bottom: 30px;
 }
 .team-name{
+    padding-top: 94px;
     color: var(--title-color);
 text-align: center;
 font-size: 36px;
@@ -135,6 +152,7 @@ letter-spacing: 1.08px;
 padding-bottom: 50px ;
 }
 .team-nick{
+    padding-bottom: 10px;
     color: var(--title-color);
 text-align: center;
 font-size: 16px;
@@ -142,6 +160,7 @@ font-weight: 500;
 letter-spacing: 0.48px;
 }
 .team-article{
+    padding-bottom: 30px;
     color: var(--text-color);
 text-align: center;
 font-size: 16px;
@@ -161,6 +180,7 @@ font-weight: 700;
 letter-spacing: 0.78px;
 }
 .last-article{
+    padding-bottom: 18px;
     padding-top: 20px ;
     color: var(--article-color);
 font-size: 14px;
@@ -213,8 +233,10 @@ letter-spacing: 0.28px;
     gap: 8px ;
 }
 .pages-button{
-    padding: 6px 22px;
-    color: var(--title-color);
+border-radius: 4px;
+border: none;
+padding: 6px 22px;
+color: var(--title-color);
 text-align: center;
 font-size: 16px;
 font-weight: 500;
@@ -229,12 +251,17 @@ letter-spacing: 0.48px;
 .goods{
     padding-bottom: 94px ;
 }
+.goods-item{
+    outline: 1px solid #EEE;
+}
 .goods-list{
     gap: 30px ;
     display: flex;
     flex-wrap: wrap;
 }
 .goods-name{
+    padding-top: 20px;
+    padding-left: 24px;
 color: var(--title-color);
 font-size: 18px;
 font-weight: 700;
@@ -242,6 +269,8 @@ line-height: 2.2; /* 200% */
 letter-spacing: 1.08px;
 }
 .goods-text{
+    padding-bottom: 20px;
+    padding-left: 24px;
 color: var(--text-color);
 font-size: 16px;
 font-weight: 400;
