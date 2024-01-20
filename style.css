@@ -22,10 +22,14 @@ body{
     padding-top: 24px ;
     padding-bottom: 25px;
 }
-.first-item{
-    margin-right: 50px;
-}
 .first-page{
+    margin-right: 50px;
+    color: var(--title-color);
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.28px;
+}
+.first-pagee{
     color: var(--title-color);
 font-size: 14px;
 font-weight: 500;
@@ -100,10 +104,10 @@ background: var(--logo-color);
     padding-top: 94px;
 }
 .advantages-item{
-    padding-left: 30px;
+    margin-left: 30px;
 }
 .advantages-name{
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     color: var(--title-color);
 font-size: 14px;
 font-weight: 700;
@@ -120,6 +124,7 @@ letter-spacing: 0.42px;
 /* section work */
 .work{
     padding-top: 94px ;
+    padding-bottom: 94px;
 }
 .work-name{
     color: var(--title-color);
@@ -132,7 +137,7 @@ margin-bottom: 50px;
 /* section team */
 .team{
     padding-bottom: 94px;
-    margin-top: 94px ;
+    padding-top: 94px;
     background-color: var(--team-color);
 }
 .team-item{
@@ -140,19 +145,18 @@ margin-bottom: 50px;
     background-color: var(--header-color);
 }
 .team-photo{
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .team-name{
-    padding-top: 94px;
     color: var(--title-color);
 text-align: center;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
-padding-bottom: 50px ;
+margin-bottom: 50px ;
 }
 .team-nick{
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     color: var(--title-color);
 text-align: center;
 font-size: 16px;
@@ -160,7 +164,7 @@ font-weight: 500;
 letter-spacing: 0.48px;
 }
 .team-article{
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     color: var(--text-color);
 text-align: center;
 font-size: 16px;
@@ -172,6 +176,9 @@ letter-spacing: 0.48px;
     padding-top: 60px ;
     padding-bottom: 60px;
 }
+.last-item{
+    margin-bottom: 10px;
+}
 .last-logo{
     color: var(--logo-color);
 font-family: Raleway;
@@ -180,8 +187,8 @@ font-weight: 700;
 letter-spacing: 0.78px;
 }
 .last-article{
-    padding-bottom: 18px;
-    padding-top: 20px ;
+    margin-bottom: 18px;
+    margin-top: 20px ;
     color: var(--article-color);
 font-size: 14px;
 font-weight: 400;
@@ -224,7 +231,7 @@ letter-spacing: 0.28px;
 }
 /* section pages */
 .pages{
-    padding-top: 126px ;
+    padding-top: 94px ;
     padding-bottom: 50px ;
 }
 .pages-list{
@@ -260,6 +267,7 @@ letter-spacing: 0.48px;
     flex-wrap: wrap;
 }
 .goods-name{
+    padding-bottom: 10px;
     padding-top: 20px;
     padding-left: 24px;
 color: var(--title-color);
