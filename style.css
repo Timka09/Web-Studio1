@@ -177,6 +177,7 @@ content: '' url(../photo/SpaceMan.webp);
 .team-item {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--header-color);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team-photo {
   margin-bottom: 30px;
@@ -296,6 +297,9 @@ content: '' url(../photo/SpaceMan.webp);
 .goods-item {
   --goods: 3;
   outline: 1px solid #eee;
+}
+.goods-item:hover{
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .goods-list {
   --grid-gap: 30px;
