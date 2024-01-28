@@ -8,6 +8,8 @@
   --footer-color: #2f303a;
   --team-color: #f5f4fa;
   --number-color: rgba(255, 255, 255, 0.6);
+  --grid-gap: 30px;
+  --goods:3;
 }
 body {
   font-family: Roboto;
@@ -16,6 +18,15 @@ body {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+
+}
+.grid-list{
+  display: flex;
+  justify-content: center;
+  gap: var(--grid-gap);
+}
+.grid-item{
+  width: calc((100% - var(--grid-gap) * var(--goods)) / var(--goods));
 }
 /* header first */
 .first {
@@ -311,10 +322,11 @@ content: '';
   padding-bottom: 94px;
 }
 .goods-item {
+  --goods: 3;
   outline: 1px solid #eee;
 }
 .goods-list {
-  gap: 30px;
+  --grid-gap: 30px;
   display: flex;
   flex-wrap: wrap;
 }
