@@ -127,17 +127,17 @@ content:'' url(./photo/Satellite.webp);
 }
 .advantages-item:nth-child(2):before{
   margin-bottom: 30px;
-content: '' url(../photo/Clock.webp);
+content: '' url(./photo/Clock.webp);
   display: block;
 }
 .advantages-item:nth-child(3):before{
   margin-bottom: 30px;
-content: '' url(../photo/Computer.webp);
+content: '' url(./photo/Computer.webp);
   display: block;
 }
 .advantages-item:nth-child(4):before{
   margin-bottom: 30px;
-content: '' url(../photo/SpaceMan.webp);
+content: '' url(./photo/SpaceMan.webp);
   display: block;
 }
 .advantages-name {
