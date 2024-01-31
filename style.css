@@ -83,7 +83,12 @@ body {
 }
 /* section hero */
 .hero {
-  background-color: var(--firstsection-color);
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:linear-gradient( rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(./photo/Img.webp) ;
+  background-repeat: no-repeat;
+  background-position: center, center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
