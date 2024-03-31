@@ -86,8 +86,15 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .first-icons {
   fill: var(--text-color);
+  width: 16px;
+  height: 12px;
+  display: flex;
+}
+.first-icons:hover {
+  fill: var(--logo-color);
 }
 /* section hero */
 .hero {
@@ -126,6 +133,7 @@ body {
   line-height: 1.8; /* 187.5% */
   letter-spacing: 0.96px;
   background: var(--logo-color);
+  margin-left: 492px;
 }
 .hero-button:hover {
   box-shadow: 0px 4px 4px 0px grey;
@@ -224,20 +232,40 @@ body {
   font-weight: 400;
   letter-spacing: 0.48px;
 }
-.icons {
+.team-icons {
   fill: var(--icons-color);
+  width: 20px;
+  height: 20px;
+  margin-left: 34px;
+  margin-bottom: 42px;
+}
+.team-button {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: transparent;
 }
 /* clients */
-.clients-title{
-  color: var(--title-color);
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-letter-spacing: 1.08px;
+.clients-list {
+  display: flex;
+  justify-content: center;
+  gap: 94px;
 }
-.clients-icons{
+.clients-title {
+  color: var(--title-color);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.clients-icons {
   fill: var(--icons-color);
+  width: 106px;
+  height: 60px;
+}
+.clients-icons:hover {
+  fill: var(--logo-color);
 }
 /* footer last */
 .last {
@@ -270,14 +298,25 @@ letter-spacing: 1.08px;
   line-height: 1.7; /* 171.429% */
   letter-spacing: 0.42px;
 }
-.last-text{
-  color:var(--article-color);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+.last-text {
+  color: var(--article-color);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
 }
+.icons {
+  fill: var(--header-color);
+  width: 20px;
+  height: 20px;
+}
+.last-list {
+  display: flex;
+  gap: 34px;
+}
+
 /* portfolio page */
 /* header one */
 .one-logo {
