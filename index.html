@@ -49,11 +49,11 @@
             <a class="first-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
-            <svg class="first-icons">
+            <svg class="first-icons1">
               <use href="./photo/symbol-defs.svg#icon-envelope"></use>
             </svg>
           </li>
-          <li class="first-contact">
+          <li class="first-contact first-tel">
             <a class="first-link" href="tel:+380961111111">+38 096 111 11 11</a>
             <svg class="first-icons">
               <use href="./photo/symbol-defs.svg#icon-smartphone"></use>
@@ -113,25 +113,34 @@
           <h2 class="work-name">Чим ми займаємося</h2>
           <ul class="work-list">
             <li class="work-item">
+              <div class="work-decorate">
               <img
                 class="work-photo"
                 src="./photo/working.webp"
                 alt="код на планшеті"
               />
+              <p class="work-text">Десктопні додатки</p>
+              </div>
             </li>
             <li class="work-item">
+              <div class="work-decorate">
               <img
                 class="work-photo"
                 src="./photo/bigcomputer.webp"
                 alt="телефони на ноутбуці"
               />
+               <p class="work-text">Мобільні додатки</p>
+               </div>
             </li>
             <li class="work-item">
+              <div class="work-decorate">
               <img
                 class="work-photo"
                 src="./photo/tablet.webp"
                 alt="планшет з різними кольорами"
               />
+               <p class="work-text">Дизайнерські рішення</p>
+               </div>
             </li>
           </ul>
         </div>
@@ -149,26 +158,26 @@
               />
               <h2 class="team-nick">Ігор Дем'яненко</h2>
               <p class="team-article">Product Designer</p>
-              <button class="team-button">
-                <svg class="team-icons">
+              <ul class="team-iconslist">
+                <li class="team-iconsitem">
+                  <svg class="team-icons">
                   <use href="./photo/symbol-defs.svg#icon-instagram"></use>
                 </svg>
-              </button>
-              <button class="team-button">
-                <svg class="team-icons">
+              </li>
+                <li class="team-iconsitem"><svg class="team-icons">
                   <use href="./photo/symbol-defs.svg#icon-twitter"></use>
                 </svg>
-              </button>
-              <button class="team-button">
-                <svg class="team-icons">
+              </li>
+                <li class="team-iconsitem"><svg class="team-icons">
                   <use href="./photo/symbol-defs.svg#icon-facebook"></use>
                 </svg>
-              </button>
-              <button class="team-button">
-                <svg class="team-icons">
+              </li>
+                <li class="team-iconsitem">
+                  <svg class="team-icons">
                   <use href="./photo/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
-              </button>
+              </li>
+              </ul>
             </li>
             <li class="team-item">
               <img
@@ -178,6 +187,7 @@
               />
               <h2 class="team-nick">Ольга Рєпіна</h2>
               <p class="team-article">Frontend Developer</p>
+
               <svg class="team-icons">
                 <use href="./photo/symbol-defs.svg#icon-instagram"></use>
               </svg>
@@ -277,6 +287,8 @@
     </main>
     <footer class="last">
       <div class="container">
+        <div class="last-container">
+          <div class="last-info">
         <!-- footer last -->
         <a class="last-logo" href="./index.html"
           >Web<span class="last-span">Studio</span></a
@@ -292,6 +304,8 @@
             <a class="last-link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
+        </div>
+        <div class="last-div">
         <h2 class="last-text">Приєднуйтесь</h2>
         <ul class="last-list">
           <li class="last-icons">
@@ -313,8 +327,11 @@
             <svg class="icons">
               <use href="./photo/symbol-defs.svg#icon-linkedin"></use>
             </svg>
+            </div>
           </li>
         </ul>
+        
+      </div>
       </div>
     </footer>
   </body>
