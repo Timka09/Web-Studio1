@@ -94,12 +94,9 @@ body {
   justify-content: space-between;
 }
 
-.first-icons1 {
-  fill: var(--text-color);
-  width: 16px;
-  height: 12px;
-  display: flex;
-  margin-right: 10px;
+
+.first-link:hover + .first-icons {
+  fill: var(--logo-color);
 }
 .first-icons {
   fill: var(--text-color);
@@ -107,9 +104,6 @@ body {
   height: 16px;
   display: flex;
   margin-right: 10px;
-}
-.first-icons:hover {
-  fill: var(--logo-color);
 }
 /* section hero */
 .hero {
@@ -223,6 +217,9 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+.work-decorate{
+  position: relative;
+}
 /* section team */
 .team {
   padding-bottom: 94px;
@@ -266,20 +263,27 @@ body {
   fill: var(--icons-color);
   width: 20px;
   height: 20px;
-  margin-left: 34px;
-  margin-bottom: 42px;
 }
 .team-iconslist {
   display: flex;
-}
-.team-iconsitem {
-  border-radius: 50%;
-  display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
 }
-.team-iconsitem:hover {
+.team-link:hover {
   background-color: var(--logo-color);
+}
+.team-link:hover > .team-icons{
+fill: var(--header-color);
+}
+.team-link{
+ width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* clients */
 .clients {
@@ -366,9 +370,9 @@ body {
   width: 20px;
   height: 20px;
 }
-.last-icons {
+.last-iconslink {
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+  border-radius: 100%;
   width: 44px;
   height: 44px;
   display: flex;
@@ -377,6 +381,7 @@ body {
 }
 .last-icons:hover {
   background-color: var(--logo-color);
+  border-radius: 100%;
 }
 .last-list {
   gap: 12px;
