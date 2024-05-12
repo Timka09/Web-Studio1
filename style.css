@@ -704,7 +704,6 @@ transform: scale(0);
 }
 .overlay:hover .overlay-text {
   transform: translate(0,0);
-
 }
 .goods-overlay-text {
   color: var(--article-color);
