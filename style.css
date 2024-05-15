@@ -140,6 +140,27 @@ body {
   line-height: 1.3; /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  animation-name: run-text;
+  animation-duration: 2s;
+}
+@keyframes run-text{
+  0%{
+
+transform:translateX(100%) ;
+color: var(--title-color);
+  }
+  25%{
+color: var(--footer-color);
+  }
+  50%{
+color: var(--text-color);
+font-size: 0px;
+  }
+  100%{
+    transform: translateX(0%);
+    font-size: 44px;
+    color: var(--article-color);
+  }
 }
 .hero-button {
   border: none;
